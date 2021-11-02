@@ -68,7 +68,7 @@ app.get('/logan', function(req, res) {
     line2: "Logan was an okayish man. He died the way he lived. Quietly. He existed, and then he was gone. Just like that. Bam! He even left his 2021-22 year agenda on his desk. This is so tragic.",
     line3: "2004(?)-September 2021"
   });
-  
+
 
 
 app.get('/feedback',function (req, res) {
@@ -104,5 +104,5 @@ app.post('/feedback', function(req, res) {
   }
 });
 
-app.listen(8080);//now listen closely heres a story about how my life got flip-turned upside down, and Id like to take a minute just sit right there imma tell you how I became the fresh prince of a town called bel-air.
+app.listen(8080); //now listen closely heres a story about how my life got flip-turned upside down, and Id like to take a minute just sit right there imma tell you how I became the fresh prince of a town called bel-air.
 console.log('Server is listening on port 8080');
